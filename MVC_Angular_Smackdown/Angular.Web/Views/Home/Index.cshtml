@@ -1,0 +1,35 @@
+﻿<div ng-app="myApp" ng-controller="PersonController as vm" class="row">
+    <div class="col-md-4">
+        <br/>
+        <!-- Put my list of People here-->
+        <ul>
+            <li ng-repeat="person in vm.personList">
+                <a ng-click="vm.selectPerson(person.Id)">{{person.FirstName}} {{person.LastName}}</a>
+            </li>
+        </ul>
+    </div>
+    <button ng-click="vm.createPerson()">Create Person</button>
+    <div class="col-md-8" ng-show="vm.selectedPerson">
+        <button ng-click="vm.savePerson(vm.selectedPerson)">Save Person</button>
+        <!-- Put my selected Person here.-->
+        <label for="firstName">First Name</label>
+        <input id="firstName" type="text" ng-model="vm.selectedPerson.FirstName" />
+        <label for="lasttName">Last Name</label>
+        <input id="lastName" type="text" ng-model="vm.selectedPerson.LastName" />
+
+        <h3>Addresses</h3>
+        <table>
+            <thead><tr><th>Street</th><td>City</td><td>State</td><td>Zip Code</td></tr></thead>
+            <tbody>
+                <tr ng-repeat="address in vm.selectedPerson.Addresses">
+                    <td><input ng-model="address.Street"/></td>
+                    <td><input ng-model="address.City" /></td>
+                    <td><input ng-model="address.State" /></td>
+                    <td><input ng-model="address.ZipCode" /></td>
+                </tr>
+            </tbody>
+        </table>
+        <button ng-click="vm.addAddress()">Add New Address</button>
+    </div>
+
+</div>

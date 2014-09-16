@@ -1,0 +1,7 @@
+C:\Development\Git\TestProjects\MVC_Angular_Smackdown\Smackdown.Repositories\obj\Debug\Smackdown.Repositories.csprojResolveAssemblyReference.cache
+C:\Development\Git\TestProjects\MVC_Angular_Smackdown\Smackdown.Repositories\bin\Debug\Smackdown.Repositories.dll
+C:\Development\Git\TestProjects\MVC_Angular_Smackdown\Smackdown.Repositories\bin\Debug\Smackdown.Repositories.pdb
+C:\Development\Git\TestProjects\MVC_Angular_Smackdown\Smackdown.Repositories\bin\Debug\Smackdown.Models.dll
+C:\Development\Git\TestProjects\MVC_Angular_Smackdown\Smackdown.Repositories\bin\Debug\Smackdown.Models.pdb
+C:\Development\Git\TestProjects\MVC_Angular_Smackdown\Smackdown.Repositories\obj\Debug\Smackdown.Repositories.dll
+C:\Development\Git\TestProjects\MVC_Angular_Smackdown\Smackdown.Repositories\obj\Debug\Smackdown.Repositories.pdb

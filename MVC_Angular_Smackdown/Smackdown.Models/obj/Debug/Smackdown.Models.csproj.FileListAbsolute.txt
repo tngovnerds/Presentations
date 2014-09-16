@@ -1,0 +1,5 @@
+C:\Development\Git\TestProjects\MVC_Angular_Smackdown\Smackdown.Models\bin\Debug\Smackdown.Models.dll
+C:\Development\Git\TestProjects\MVC_Angular_Smackdown\Smackdown.Models\bin\Debug\Smackdown.Models.pdb
+C:\Development\Git\TestProjects\MVC_Angular_Smackdown\Smackdown.Models\obj\Debug\Smackdown.Models.dll
+C:\Development\Git\TestProjects\MVC_Angular_Smackdown\Smackdown.Models\obj\Debug\Smackdown.Models.pdb
+C:\Development\Git\TestProjects\MVC_Angular_Smackdown\Smackdown.Models\obj\Debug\Smackdown.Models.csprojResolveAssemblyReference.cache
